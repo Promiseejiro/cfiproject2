@@ -1,0 +1,186 @@
+:root {
+  --dark-gray: #dadce0;
+  --light--gray: #f1f3f4;
+  --blue-color: #4285f4;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+}
+
+.main-container {
+  max-width: 360px;
+  margin: auto;
+  overflow: scroll;
+}
+
+header {
+  width: 100%;
+  padding: 0.5em;
+  background-color: #f40c00;
+}
+
+header div {
+  display: flex;
+  gap: 0.5em;
+  align-items: center;
+}
+
+header h1 {
+  color: #fff;
+}
+
+.logo {
+  border-left: 6px solid #fff;
+  font-family: "Mountains of Christmas", cursive;
+  margin-top: 0.5em;
+  padding-right: 0.5em;
+  transform: rotate(100deg);
+}
+
+.text {
+  font-family: "Festive", cursive;
+}
+
+button {
+  display: block;
+  cursor: pointer;
+  background-color: #f40c00;
+  padding: 0.5em;
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+  width: 90%;
+  margin: auto;
+  margin-top: 0.5em;
+  border: none;
+  border-radius: 10px;
+}
+
+.design-wrapper {
+  position: relative;
+  width: 100%;
+  height: 800px;
+  overflow: scroll;
+}
+
+.showing-design {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 30em;
+  width: 100%;
+  z-index: 8;
+}
+
+.ui-image {
+  position: absolute;
+  width: 16em;
+  height: 10.5em;
+  border-radius: 50%;
+  z-index: 10;
+  border: 6px solid #f40c00;
+  top: 16.5em;
+  right: 1.4em;
+}
+
+.ui-name {
+  position: absolute;
+  z-index: 10;
+  top: 21.8em;
+  left: 3em;
+  color: #f40c00;
+  font-weight: 900;
+  font-family: "Rubik", sans-serif;
+  text-align: center;
+  width: 7em;
+}
+
+.design {
+  position: relative;
+  width: 800px;
+  margin: auto;
+  height: 800px;
+  background: url("./cfi.jpg");
+  background-position: right;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 2px solid red;
+}
+
+.name {
+  position: absolute;
+  left: 4.5em;
+  top: 24.5em;
+  color: #f40c00;
+  font-size: 24px;
+  font-weight: 900;
+  font-family: "Rubik", sans-serif;
+  width: 10em;
+}
+
+input {
+  display: block;
+  width: 100%;
+  margin: 0.5em 0;
+  padding: 0.5em;
+}
+
+#name-input {
+  border: 2px solid #f40c00;
+  padding: 0.5em;
+  font-size: 18px;
+  width: 90%;
+  margin: auto;
+}
+
+#name-input:focus {
+  outline: none;
+}
+
+.input-container {
+  padding: 0.5em 0;
+  width: 100%;
+}
+
+.image {
+  position: absolute;
+  top: 27.2em;
+  right: 3.7em;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 18.5em;
+  height: 18.5em;
+  border: 6px solid #f40c00;
+  border-radius: 50%;
+}
+
+.btn-container {
+  padding: 1em 0;
+}
+
+footer {
+  text-align: center;
+  background-color: #f40c00;
+  color: #fff;
+  padding: 3em 0;
+  margin-top: 3em;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+footer p {
+  font-family: "Rubik", sans-serif;
+}
+
+@media (max-width: 360px) {
+  .main-container {
+    max-width: 100%;
+  }
+}
