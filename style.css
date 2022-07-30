@@ -69,6 +69,16 @@ button {
   overflow: scroll;
 }
 
+.cfi-delsu-ole {
+  position: absolute;
+  font-family: "Rubik", sans-serif;
+  color: #f40c00;
+  font-weight: 700;
+  top: 3.1em;
+  font-size: 16px;
+  left: 17.4em;
+}
+
 .showing-design {
   position: absolute;
   top: 0;
